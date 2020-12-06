@@ -10,7 +10,7 @@
               <input type="password" v-model="form.password" id="inputPassword" class="form-control" placeholder="Senha" required>
               <input type="password" v-if = "isCreate" v-model="form.passwordConfirmation" id="inputPassword" class="form-control" placeholder="Confirmar senha">
               <button v-if="!isCreate" type="submit" class="btn btn-lg btn-primary btn-block btn-signin" @click="submit">Login</button>
-              <button @click="signup" class="btn btn-lg btn-danger  btn-signin">Cadastrar</button>
+              <button @click="signup" class="btn btn-lg btn-primary btn-block btn-signin btn-up">Cadastrar</button>
             </form><!-- /form -->
         </div>
     </div>
@@ -72,8 +72,5 @@ export default {
 }
 .html {
   height: 10px!important;
-}
-.btn-danger {
-  background-color: red;
 }
 </style>

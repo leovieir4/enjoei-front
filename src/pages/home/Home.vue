@@ -61,7 +61,7 @@
         </div>
           <div class="no-find" v-show="!products.length && awaitRender">
             <div class="no-find-text">
-              <span style="font-weight: bold; color: black">ué, não encontramos </span> nadinha que tal fazer uma nova busca?<br>
+              <span style="font-weight: bold; color: black">ué, não encontramos </span> nadinha! Que tal fazer uma nova busca?<br>
               <b-button class="no-find-btn"  v-on:click="cleanSearch">
                   limpar busca
               </b-button>
