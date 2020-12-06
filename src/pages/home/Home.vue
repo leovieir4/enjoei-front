@@ -193,6 +193,9 @@ export default {
 }
 </script>
 <style lang="css">
+.toasted-container {
+    display: none;
+}
 .logout {
   margin-left: 90%;
   color: black;
