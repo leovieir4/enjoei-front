@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="card card-container">
-            <img id="profile-img" class="profile-img-card img-fluid" src="https://play-lh.googleusercontent.com/JpFzog0LOxxa3oWbiJR0WdzN_kQzuJVeaSp8P3Hf0jENPmZqSIMF-Ubtc2S4ARlXyDs=s180-rw" />
+            <img id="profile-img" class="profile-img-card img-fluid" src="@/assets/logo.webp" />
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin">
               <div class="form-group">
@@ -17,6 +17,7 @@
 </template>
 <script>
 import { mapActions } from 'vuex'
+
 export default {
   data: () => ({
     isCreate: false,

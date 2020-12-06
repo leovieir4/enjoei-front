@@ -3,7 +3,7 @@
     <br>
     <div class="columns is-flex is-centered">
         <figure class="image is-64x64">
-          <img class = "logo" src="data:image/png;base64,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" alt="logo">
+          <img class = "logo" src="@/assets/logo.webp" alt="logo">
         </figure>
     </div>
     <a class="logout" v-on:click="logout">sair</a>
@@ -48,7 +48,7 @@
           <div class="pag">
             <section>
               <b-button
-                  :disabled="current < 1"
+                  :disabled="current === 0"
                   v-on:click="nextPage(-1)"
                   icon-left="arrow-left">
                   anterior
@@ -67,7 +67,7 @@
               </b-button>
             </div>
           </div>
-          <img v-show="!products.length && awaitRender" class="no-find-img" src="https://assets1.enjoei.com.br/assets/20170302/web/components/product-feed/blank-slate-c2590bd7dc794737c9ff03e7a732f34c2a0046aee1adeb1f0123de289d618d6d.png" alt="logo">
+          <img v-show="!products.length && awaitRender" class="no-find-img" src="@/assets/notfind.png" alt="logo">
          </div>
        <section>
         <b-notification :closable="false">
@@ -97,7 +97,7 @@ export default {
       this.$router.push('/')
     }
     this.getProducts(this.current, '')
-    this.nextPage(1)
+    this.nextPage(0)
   },
   methods: {
     logout () {
