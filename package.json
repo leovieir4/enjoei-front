@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
@@ -17,9 +18,7 @@
     "vue": "^2.6.12",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.4.9",
-    "vue-toas-demo-yqzj": "^1.0.1",
     "vue-toasted": "^1.1.28",
-    "vuetoast": "^1.0.1",
     "vuex": "^3.6.0"
   },
   "devDependencies": {
