@@ -133,7 +133,7 @@ export default {
       setTimeout(() => {
         this.isLoading = false
         this.awaitRender = true
-      }, 3000)
+      }, 3500)
     },
     getProducts (page, search) {
       this.isLoading = true
