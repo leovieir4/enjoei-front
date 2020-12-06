@@ -6,7 +6,6 @@ export const ActionDoLogin = ({ dispatch }, payload) => {
     const { body } = result
     const { res = body.body } = body
     const { accessToken, id } = res
-    console.log(accessToken)
     dispatch('ActionSetToken', accessToken)
     dispatch('ActionSetUser', id)
   })
